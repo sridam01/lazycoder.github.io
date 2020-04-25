@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .single-product-item {
+	height: 250px;
+	margin-bottom: 15px;
+}
+.big-menu li {
+	font-size: 40px;
+}
+.single-product-item:nth-child(2) {
+	height: 520px;
+}
+
+    
+}
+/* Tablet Layout: 750px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .big-menu li {
+	font-size: 31px;
+}
+.big-menu li a {
+	padding-top: 130px;
+}
+.single-product-item {
+	width: 31.3333%;
+}
+.single-product-item:nth-child(2),.single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+	width: 64.666%;
+}
+.promotion-bg {
+	padding: 10px;
+	padding-bottom: 0;
+}
+.footer-area, .footer-area .text-right {
+	text-align: center;
+}
+.footer-menu li {
+	padding: 0 20px;
+}
+.footer-menu {
+	margin-bottom: 10px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .header-right, .header-left ul {
+	display: none;
+}
+.header-slider-wrap, .header-slider-wrap div  {
+	height: auto;
+}
+.header-top-area {
+	position: relative;
+	background: #E9D4CF;
+}
+.header-top-area a {
+	padding-bottom: 10px;
+}
+.slide-text-tablecell {
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding: 50px 0;
+}
+.homepage-slides.owl-carousel .owl-item .single-slides-item img {
+	display: none;
+}
+.big-menu li {
+	font-size: 35px;
+	float: none;
+	width: 100%;
+}
+.big-menu li a {
+	text-align: center;
+	padding: 75px;
+}
+.big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+	width: auto;
+}
+.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+	width: 100%;
+}
+.footer-area, .footer-area .text-right {
+	text-align: center;
+}
+.promo-content-title h2 {
+	font-size: 22px;
+}
+.promo-content-title {
+	font-size: 21px;
+	margin-bottom: 23px;
+}
+.promo-content {
+	padding: 13px;
+}
+.promo-content-title span {
+	left: 21%;
+	top: 4%;
+	font-size: 80px;
+	line-height: 80px;
+}  
+.product-promotions.owl-carousel .owl-dots {
+	position: relative;
+	bottom: 0;
+	top: auto;
+	text-align: center;
+}
+.product-promotions.owl-carousel .owl-dots div {
+	
+	display: inline-block;
+	margin-left: 13px;
+	margin-top: 8px;
+} 
+.header-top-area .menu-trigger {
+  display: block;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
